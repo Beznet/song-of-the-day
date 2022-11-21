@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(212, 69, 19, 0.85);
+}
+
+#bodyContent {
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(255, 110, 0, 0.85);
+    font-family: 'Sharp Sans Display No. 1';
+    height: 80vh;
+    overflow: scroll;
+    text-align: center;
+    width: 65vw;
+}
