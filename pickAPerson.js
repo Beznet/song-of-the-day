@@ -8,7 +8,6 @@ window.addEventListener('DOMContentLoaded', function () {
     'Kelly Porter',
     'Max Novak',
     'Natalie Colburn',
-    'James Socol',
   ];
 
   const setDateHeader = (randomPerson) => {
