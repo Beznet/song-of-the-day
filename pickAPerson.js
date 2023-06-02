@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', function () {
   const setDateHeader = (randomPerson) => {
     const today = new Date();
     const defaultHeader = 'Song of the Day for ';
-    const benHeader = 'George Duke of the day for ';
+    const benHeader = 'George Duke of the Day for ';
     if (randomPerson === 'Ben Gummoe') {
       return (document.getElementsByClassName(
         'today'
