@@ -7,7 +7,6 @@ window.addEventListener('DOMContentLoaded', function () {
     'Joe Gonwa',
     'Kelly Porter',
     'Max Novak',
-    'Natalie Colburn',
   ];
 
   const setDateHeader = (randomPerson) => {
@@ -44,7 +43,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   const displayPairings = (person) => {
     let pairingDiv = document.getElementsByClassName('person')[0];
-    pairingDiv.innerHTML += `<h1>Is: ${person}</h1>`;
+    pairingDiv.innerHTML += `<h1>Is: Max Novak <3</h1>`;
   };
 
   shuffleStudents(people);
