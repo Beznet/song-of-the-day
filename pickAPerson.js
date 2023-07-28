@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', function () {
     'Brian DiRito',
     'Joe Gonwa',
     'Kelly Porter',
-    'Max Novak',
+    'Natalie Colburn',
   ];
 
   const setDateHeader = (randomPerson) => {
