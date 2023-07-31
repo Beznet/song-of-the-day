@@ -10,10 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background-image: url('lemon_pie_max.jpeg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: rgba(255, 110, 0, 0.85);
     font-family: 'Sharp Sans Display No. 1';
     height: 80vh;
     overflow: scroll;
