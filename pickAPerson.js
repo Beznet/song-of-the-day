@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   const displayPairings = (person) => {
     let pairingDiv = document.getElementsByClassName('person')[0];
-    pairingDiv.innerHTML += `<h1>Is:  🎶 ${person} 🎶</h1>`;
+    pairingDiv.innerHTML += `<h1>🎶 ${person} 🎶</h1>`;
   };
 
   shuffleStudents(people);

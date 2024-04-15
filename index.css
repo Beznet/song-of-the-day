@@ -6,6 +6,7 @@ body {
     margin: auto;
     margin-top: 5%;
     display: grid;
+    border-radius: 10px;
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -15,4 +16,24 @@ body {
     height: 80vh;
     text-align: center;
     width: 65vw;
+}
+
+.today {
+    animation: strobe 1s infinite alternate, wave 2s infinite linear; /* Adjust the durations and timing functions as needed */
+}
+
+@keyframes strobe {
+    0% { color: red; } /* Define the colors you want to use */
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: purple; }
+}
+
+@keyframes wave {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(20px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(-20px); }
+    100% { transform: translateX(0); }
 }
