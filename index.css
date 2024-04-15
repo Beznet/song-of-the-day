@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(212, 69, 19, 0.85);
+    background-color: rgba(212, 19, 186, 0.85);
 }
 
 #bodyContent {
@@ -10,10 +10,9 @@ body {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background-color: rgba(255, 110, 0, 0.85);
+    background-color: rgba(77, 255, 0, 0.85);
     font-family: 'Sharp Sans Display No. 1';
     height: 80vh;
-    overflow: scroll;
     text-align: center;
     width: 65vw;
 }

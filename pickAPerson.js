@@ -1,9 +1,7 @@
 window.addEventListener('DOMContentLoaded', function () {
   const people = [
     'Anthony Ciccone',
-    'Ben Gummoe',
     'Bennett Dungan',
-    'Brian DiRito',
     'Joe Gonwa',
     'Kelly Porter',
     'Natalie Colburn',
@@ -12,14 +10,6 @@ window.addEventListener('DOMContentLoaded', function () {
   const setDateHeader = (randomPerson) => {
     const today = new Date();
     const defaultHeader = 'Song of the Day for ';
-    const benHeader = 'George Duke of the Day for ';
-    if (randomPerson === 'Ben Gummoe') {
-      return (document.getElementsByClassName(
-        'today'
-      )[0].innerHTML = `${benHeader} ${
-        today.getMonth() + 1
-      }/${today.getDate()}/${today.getFullYear()}`);
-    }
     document.getElementsByClassName('today')[0].innerHTML = `${defaultHeader} ${
       today.getMonth() + 1
     }/${today.getDate()}/${today.getFullYear()}`;
@@ -43,7 +33,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   const displayPairings = (person) => {
     let pairingDiv = document.getElementsByClassName('person')[0];
-    pairingDiv.innerHTML += `<h1>Is: ${person}</h1>`;
+    pairingDiv.innerHTML += `<h1>Is:  🎶 ${person} 🎶</h1>`;
   };
 
   shuffleStudents(people);
