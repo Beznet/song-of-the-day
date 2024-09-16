@@ -1,10 +1,13 @@
 window.addEventListener('DOMContentLoaded', function () {
   const people = [
-    'Anthony Ciccone',
-    'Bennett Dungan',
-    'Joe Gonwa',
-    'Kelly Porter',
-    'Natalie Colburn',
+    'Anthony',
+    'Bennett',
+    'Kelly',
+    'Lukas',
+    'Jenny',
+    'Brian',
+    'Manvick',
+    'Michael'
   ];
 
   const setDateHeader = (randomPerson) => {
